@@ -15,29 +15,36 @@ Where should retention efforts be prioritized?
 ## 3. Dataset
 
 O dataset pode ser obtido pela url: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-| Coluna               | Tipo          | Significado                                               |
-| -------------------- | ------------- | --------------------------------------------------------- |
-| **customerID**       | Identificador | ID único do cliente.                                      |
-| **gender**           | Categórica    | Sexo do cliente (Male/Female).                            |
-| **SeniorCitizen**    | Binária       | Indica se o cliente é idoso (1 = Sim, 0 = Não).           |
-| **Partner**          | Binária       | Possui parceiro(a)? (Yes/No).                             |
-| **Dependents**       | Binária       | Possui dependentes? (filhos, pais, etc.) (Yes/No).        |
-| **tenure**           | Numérica      | Quantidade de meses que o cliente está na empresa.        |
-| **PhoneService**     | Binária       | Possui serviço telefônico? (Yes/No).                      |
-| **MultipleLines**    | Categórica    | Possui mais de uma linha telefônica?                      |
-| **InternetService**  | Categórica    | Tipo de internet: DSL, Fiber optic ou No.                 |
-| **OnlineSecurity**   | Categórica    | Contratou serviço de segurança online?                    |
-| **OnlineBackup**     | Categórica    | Contratou backup online?                                  |
-| **DeviceProtection** | Categórica    | Possui proteção de dispositivos?                          |
-| **TechSupport**      | Categórica    | Possui suporte técnico?                                   |
-| **StreamingTV**      | Categórica    | Usa serviço de streaming de TV?                           |
-| **StreamingMovies**  | Categórica    | Usa serviço de streaming de filmes?                       |
-| **Contract**         | Categórica    | Tipo de contrato: Month-to-month, One year ou Two year.   |
-| **PaperlessBilling** | Binária       | Recebe cobrança sem papel?                                |
-| **PaymentMethod**    | Categórica    | Método de pagamento utilizado.                            |
-| **MonthlyCharges**   | Numérica      | Valor cobrado mensalmente.                                |
-| **TotalCharges**     | Numérica      | Valor total pago pelo cliente desde o início do contrato. |
-| **Churn**            | Variável-alvo | Cliente cancelou o serviço? (Yes/No).                     |
+| Column | Type | Description |
+|---|---|---|
+| `customerID` | Identifier | Unique customer ID. |
+| `gender` | Categorical | Customer's gender (Male/Female). |
+| `SeniorCitizen` | Binary | Indicates whether the customer is a senior citizen (1 = Yes, 0 = No). |
+| `Partner` | Binary | Indicates whether the customer has a partner (Yes/No). |
+| `Dependents` | Binary | Indicates whether the customer has dependents (e.g., children, parents) (Yes/No). |
+| `tenure` | Numerical | Number of months the customer has been with the company. |
+| `PhoneService` | Binary | Indicates whether the customer has phone service (Yes/No). |
+| `MultipleLines` | Categorical | Indicates whether the customer has multiple telephone lines. |
+| `InternetService` | Categorical | Type of internet service: DSL, Fiber optic, or No. |
+| `OnlineSecurity` | Categorical | Indicates whether the customer has an online security service. |
+| `OnlineBackup` | Categorical | Indicates whether the customer has an online backup service. |
+| `DeviceProtection` | Categorical | Indicates whether the customer has device protection. |
+| `TechSupport` | Categorical | Indicates whether the customer has technical support. |
+| `StreamingTV` | Categorical | Indicates whether the customer uses a TV streaming service. |
+| `StreamingMovies` | Categorical | Indicates whether the customer uses a movie streaming service. |
+| `Contract` | Categorical | Contract type: Month-to-month, One year, or Two year. |
+| `PaperlessBilling` | Binary | Indicates whether the customer receives paperless billing. |
+| `PaymentMethod` | Categorical | Payment method used by the customer. |
+| `MonthlyCharges` | Numerical | Monthly amount charged to the customer. |
+| `TotalCharges` | Numerical | Total amount paid by the customer since the beginning of the contract. |
+| `Churn` | Target Variable | Indicates whether the customer canceled the service (Yes/No). |
+
+### How to use
+
+* Download the repository.
+* Open telco_customer_churn.pbix in Power BI Desktop.
+* If prompted, update the Excel data source path to the local data/telco_customer_churn.xlsx file.
+* Refresh the data
 
 ## 4. Methodology
 
