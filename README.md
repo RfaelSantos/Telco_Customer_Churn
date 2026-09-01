@@ -186,3 +186,10 @@ From a financial perspective, churn represents a significant exposure, accountin
 
 The analysis therefore recommends prioritizing retention efforts toward the Month-to-month + Fiber optic + No Tech Support segment, while further testing is required to determine whether Tech Support adoption has a causal effect on churn.
 
+## Author
+
+**Rafael Antunes**  
+Data Analytics | Power BI | SQL | DAX
+
+### AI Assistance
+*I used AI tools to support English translation and documentation refinement. I developed and validated all analysis, calculations, and business conclusions myself*
