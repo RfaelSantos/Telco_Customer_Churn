@@ -14,7 +14,7 @@ Where should retention efforts be prioritized?
 
 ## 3. Dataset
 
-O dataset pode ser obtido pela url: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+The dataset can be obtained via the URL: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 | Column | Type | Description |
 |---|---|---|
 | `customerID` | Identifier | Unique customer ID. |
